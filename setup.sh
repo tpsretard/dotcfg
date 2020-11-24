@@ -11,9 +11,9 @@ done
 
 if $GIT then
   echo "git found! Setting up git..."
-  git config --global user.name "Jamie Harrell"
-  git config --global user.email "jharrell@gmail.com"
-  git config --global user.ename "jharrell@gmail.com"
+  git config --global user.name "Jason King"
+  git config --global user.email "mazdagtr@gmail.com"
+  git config --global user.ename "mazdagtr@gmail.com"
   git config --global credential.helper store
 else echo "git not found."
 fi
