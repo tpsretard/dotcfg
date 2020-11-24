@@ -1,8 +1,8 @@
-ln -s $HOME/dotcfg/bashrc $HOME/.bashrc
-ln -s $HOME/dotcfg/bash_aliases $HOME/.bash_aliases
-ln -s $HOME/dotcfg/vimrc $HOME/.vimrc
-ln -s $HOME/dotcfg/rtorrent.rc $HOME/.rtorrent.rc
-ln -s $HOME/dotcfg/gitconfig $HOME/.gitconfig 
+ln -sf $HOME/dotcfg/bashrc $HOME/.bashrc
+ln -sf $HOME/dotcfg/bash_aliases $HOME/.bash_aliases
+ln -sf $HOME/dotcfg/vimrc $HOME/.vimrc
+ln -sf $HOME/dotcfg/rtorrent.rc $HOME/.rtorrent.rc
+ln -sf $HOME/dotcfg/gitconfig $HOME/.gitconfig 
 
 GIT=false
 for d in $PATH
@@ -15,5 +15,4 @@ if $GIT then
   git config --global user.email "mazdagtr@gmail.com"
   git config --global user.ename "mazdagtr@gmail.com"
   git config --global credential.helper store
-else echo "git not found."
 fi
