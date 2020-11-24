@@ -1,6 +1,6 @@
 [user]
-  name = Jamie Harrell
-  email = jharrell@gmail.com
+  name = Jason King
+  email = mazdagtr@gmail.com
 [core]
   editor = vim
 [color]
@@ -9,17 +9,12 @@
 [url "https://github.com/"]
   insteadOf = gh
 [credential "https://github.com/"]
-  username = peoii
+  username = mazdagtr
 
 [url "https://gist.github.com/"]
   insteadOf = gist
 [credential "https://gist.github.com/"]
-  username = peoii
-
-[url "https://git.browncoat.xyz/"]
-  insteadOf = bc
-[credential "https://git.browncoat.xyz/"]
-  username = jamie
+  username = mazdagtr
 
 [credential]
 	helper = store
