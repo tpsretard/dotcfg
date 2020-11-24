@@ -39,7 +39,7 @@ endif
 colorscheme sky
 set background=dark
 
-let g:lightline = { 'colorscheme': 'Dracula',}
+let g:lightline = { 'colorscheme': 'dracula',}
 
 let g:indent_guides_guide_size = 1
 "let g:indent_guides_color_change_percent = 3
